@@ -1,0 +1,2 @@
+cd src/{project where DbContext is}
+dotnet ef --startup-project ../BinaryCook.API/ migrations add {migration name} -o "Data/Migrations" -c {DbContextName} -v

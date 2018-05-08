@@ -1,0 +1,106 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "F:\\playlists\\BinaryCook\\BinaryCook\\BinaryCook.API\\BinaryCook.API.csproj",
+    "projectName": "BinaryCook.API",
+    "projectPath": "F:\\playlists\\BinaryCook\\BinaryCook\\BinaryCook.API\\BinaryCook.API.csproj",
+    "outputPath": "F:\\playlists\\BinaryCook\\BinaryCook\\BinaryCook.API\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.1"
+    ],
+    "frameworks": {
+      "netcoreapp2.1": {
+        "projectReferences": {
+          "F:\\playlists\\BinaryCook\\BinaryCook\\BinaryCook.Application.DI\\BinaryCook.Application.DI.csproj": {
+            "projectPath": "F:\\playlists\\BinaryCook\\BinaryCook\\BinaryCook.Application.DI\\BinaryCook.Application.DI.csproj"
+          },
+          "F:\\playlists\\BinaryCook\\BinaryCook\\BinaryCook.Infrastructure.AutoMapper\\BinaryCook.Infrastructure.AutoMapper.csproj": {
+            "projectPath": "F:\\playlists\\BinaryCook\\BinaryCook\\BinaryCook.Infrastructure.AutoMapper\\BinaryCook.Infrastructure.AutoMapper.csproj"
+          },
+          "F:\\playlists\\BinaryCook\\BinaryCook\\src\\BinaryCook.Application.Web\\BinaryCook.Application.Web.csproj": {
+            "projectPath": "F:\\playlists\\BinaryCook\\BinaryCook\\src\\BinaryCook.Application.Web\\BinaryCook.Application.Web.csproj"
+          },
+          "F:\\playlists\\BinaryCook\\BinaryCook\\src\\BinaryCook.Application\\BinaryCook.Application.csproj": {
+            "projectPath": "F:\\playlists\\BinaryCook\\BinaryCook\\src\\BinaryCook.Application\\BinaryCook.Application.csproj"
+          },
+          "F:\\playlists\\BinaryCook\\BinaryCook\\src\\BinaryCook.Core.Domain\\BinaryCook.Core.Domain.csproj": {
+            "projectPath": "F:\\playlists\\BinaryCook\\BinaryCook\\src\\BinaryCook.Core.Domain\\BinaryCook.Core.Domain.csproj"
+          },
+          "F:\\playlists\\BinaryCook\\BinaryCook\\src\\BinaryCook.Infrastructure.IoC\\BinaryCook.Infrastructure.IoC.csproj": {
+            "projectPath": "F:\\playlists\\BinaryCook\\BinaryCook\\src\\BinaryCook.Infrastructure.IoC\\BinaryCook.Infrastructure.IoC.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.1": {
+      "dependencies": {
+        "Autofac.Extensions.DependencyInjection": {
+          "target": "Package",
+          "version": "[4.2.2, )"
+        },
+        "Microsoft.AspNetCore.All": {
+          "target": "Package",
+          "version": "[2.1.0-rc1-final, )"
+        },
+        "Microsoft.AspNetCore.App": {
+          "target": "Package",
+          "version": "[2.1.0-rc1-final, )"
+        },
+        "Microsoft.Extensions.Configuration.AzureKeyVault": {
+          "target": "Package",
+          "version": "[2.1.0-rc1-final, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.1.0-rc1, )",
+          "autoReferenced": true
+        },
+        "Serilog.AspNetCore": {
+          "target": "Package",
+          "version": "[2.1.1, )"
+        },
+        "Serilog.Settings.Configuration": {
+          "target": "Package",
+          "version": "[2.6.1, )"
+        },
+        "Serilog.Sinks.ApplicationInsights": {
+          "target": "Package",
+          "version": "[2.6.0, )"
+        },
+        "Serilog.Sinks.AzureTableStorage": {
+          "target": "Package",
+          "version": "[4.0.0, )"
+        },
+        "Serilog.Sinks.Console": {
+          "target": "Package",
+          "version": "[3.1.1, )"
+        },
+        "Serilog.Sinks.Debug": {
+          "target": "Package",
+          "version": "[1.0.1, )"
+        },
+        "Swashbuckle.AspNetCore": {
+          "target": "Package",
+          "version": "[2.4.0, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

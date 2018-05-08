@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.1</TargetFramework>
+    </PropertyGroup>
+    <ItemGroup>
+        <Reference Include="Autofac, Version=4.2.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da">
+            <HintPath>..\..\..\..\.nuget\packages\autofac\4.2.0\lib\netstandard1.1\Autofac.dll</HintPath>
+        </Reference>
+        <Reference Include="Autofac, Version=4.8.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da">
+            <HintPath>..\..\..\.nuget\packages\autofac\4.8.0\lib\netstandard1.1\Autofac.dll</HintPath>
+        </Reference>
+    </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\BinaryCook.Infrastructure.Caching\BinaryCook.Infrastructure.Caching.csproj">
+            <Project>{3568A216-D55C-4B1E-AF12-F81C77F30B49}</Project>
+            <Name>BinaryCook.Infrastructure.Caching</Name>
+        </ProjectReference>
+        <ProjectReference Include="..\BinaryCook.Infrastructure.Core\BinaryCook.Infrastructure.Core.csproj">
+            <Project>{CEFBCAF2-6255-4A64-B40A-1BE35F126030}</Project>
+            <Name>BinaryCook.Infrastructure.Core</Name>
+        </ProjectReference>
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="Autofac" Version="4.8.0"/>
+    </ItemGroup>
+</Project>

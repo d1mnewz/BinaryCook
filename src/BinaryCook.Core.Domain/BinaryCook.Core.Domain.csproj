@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.1</TargetFramework>
+    </PropertyGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\BinaryCook.Core\BinaryCook.Core.csproj">
+            <Project>{614FD0DF-200A-4BBE-9CFD-039E7A919C53}</Project>
+            <Name>BinaryCook.Core</Name>
+        </ProjectReference>
+    </ItemGroup>
+</Project>

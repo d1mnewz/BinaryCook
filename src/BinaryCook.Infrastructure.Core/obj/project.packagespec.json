@@ -1,0 +1,58 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "F:\\playlists\\BinaryCook\\BinaryCook\\src\\BinaryCook.Infrastructure.Core\\BinaryCook.Infrastructure.Core.csproj",
+    "projectName": "BinaryCook.Infrastructure.Core",
+    "projectPath": "F:\\playlists\\BinaryCook\\BinaryCook\\src\\BinaryCook.Infrastructure.Core\\BinaryCook.Infrastructure.Core.csproj",
+    "outputPath": "F:\\playlists\\BinaryCook\\BinaryCook\\src\\BinaryCook.Infrastructure.Core\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.1"
+    ],
+    "frameworks": {
+      "netcoreapp2.1": {
+        "projectReferences": {
+          "F:\\playlists\\BinaryCook\\BinaryCook\\src\\BinaryCook.Core\\BinaryCook.Core.csproj": {
+            "projectPath": "F:\\playlists\\BinaryCook\\BinaryCook\\src\\BinaryCook.Core\\BinaryCook.Core.csproj"
+          },
+          "F:\\playlists\\BinaryCook\\BinaryCook\\src\\BinaryCook.Core.Domain\\BinaryCook.Core.Domain.csproj": {
+            "projectPath": "F:\\playlists\\BinaryCook\\BinaryCook\\src\\BinaryCook.Core.Domain\\BinaryCook.Core.Domain.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.1": {
+      "dependencies": {
+        "Microsoft.EntityFrameworkCore.SqlServer": {
+          "target": "Package",
+          "version": "[2.1.0-rc1-final, )"
+        },
+        "Microsoft.EntityFrameworkCore.Tools.DotNet": {
+          "target": "Package",
+          "version": "[2.1.0-preview1-final, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.1.0-rc1, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

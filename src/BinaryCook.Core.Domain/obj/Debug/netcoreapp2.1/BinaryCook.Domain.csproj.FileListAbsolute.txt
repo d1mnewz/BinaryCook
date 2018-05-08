@@ -1,0 +1,11 @@
+C:\Users\d1mne\RiderProjects\BinaryCook\src\BinaryCook.Domain\bin\Debug\netcoreapp2.1\BinaryCook.Domain.deps.json
+C:\Users\d1mne\RiderProjects\BinaryCook\src\BinaryCook.Domain\bin\Debug\netcoreapp2.1\BinaryCook.Domain.dll
+C:\Users\d1mne\RiderProjects\BinaryCook\src\BinaryCook.Domain\bin\Debug\netcoreapp2.1\BinaryCook.Domain.pdb
+C:\Users\d1mne\RiderProjects\BinaryCook\src\BinaryCook.Domain\bin\Debug\netcoreapp2.1\BinaryCook.Core.dll
+C:\Users\d1mne\RiderProjects\BinaryCook\src\BinaryCook.Domain\bin\Debug\netcoreapp2.1\BinaryCook.Core.pdb
+C:\Users\d1mne\RiderProjects\BinaryCook\src\BinaryCook.Domain\obj\Debug\netcoreapp2.1\BinaryCook.Domain.csproj.CoreCompileInputs.cache
+C:\Users\d1mne\RiderProjects\BinaryCook\src\BinaryCook.Domain\obj\Debug\netcoreapp2.1\BinaryCook.Domain.AssemblyInfoInputs.cache
+C:\Users\d1mne\RiderProjects\BinaryCook\src\BinaryCook.Domain\obj\Debug\netcoreapp2.1\BinaryCook.Domain.AssemblyInfo.cs
+C:\Users\d1mne\RiderProjects\BinaryCook\src\BinaryCook.Domain\obj\Debug\netcoreapp2.1\BinaryCook.Domain.csproj.CopyComplete
+C:\Users\d1mne\RiderProjects\BinaryCook\src\BinaryCook.Domain\obj\Debug\netcoreapp2.1\BinaryCook.Domain.dll
+C:\Users\d1mne\RiderProjects\BinaryCook\src\BinaryCook.Domain\obj\Debug\netcoreapp2.1\BinaryCook.Domain.pdb

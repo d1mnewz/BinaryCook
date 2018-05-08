@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.1</TargetFramework>
+    </PropertyGroup>
+    <ItemGroup>
+        <Folder Include="Services"/>
+    </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\BinaryCook.Core\BinaryCook.Core.csproj">
+            <Project>{614FD0DF-200A-4BBE-9CFD-039E7A919C53}</Project>
+            <Name>BinaryCook.Core</Name>
+        </ProjectReference>
+        <ProjectReference Include="..\BinaryCook.Core.Domain\BinaryCook.Core.Domain.csproj">
+            <Project>{8D7780A1-5B4B-41DE-8BB4-A68FB40575BD}</Project>
+            <Name>BinaryCook.Domain</Name>
+        </ProjectReference>
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.0-rc1-final"/>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.1.0-preview1-final"/>
+    </ItemGroup>
+    <ItemGroup>
+        <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.2"/>
+    </ItemGroup>
+</Project>

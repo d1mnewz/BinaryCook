@@ -1,0 +1,55 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "F:\\playlists\\BinaryCook\\BinaryCook\\src\\BinaryCook.Application.Web\\BinaryCook.Application.Web.csproj",
+    "projectName": "BinaryCook.Application.Web",
+    "projectPath": "F:\\playlists\\BinaryCook\\BinaryCook\\src\\BinaryCook.Application.Web\\BinaryCook.Application.Web.csproj",
+    "outputPath": "F:\\playlists\\BinaryCook\\BinaryCook\\src\\BinaryCook.Application.Web\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.1"
+    ],
+    "frameworks": {
+      "netcoreapp2.1": {
+        "projectReferences": {
+          "F:\\playlists\\BinaryCook\\BinaryCook\\src\\BinaryCook.Core\\BinaryCook.Core.csproj": {
+            "projectPath": "F:\\playlists\\BinaryCook\\BinaryCook\\src\\BinaryCook.Core\\BinaryCook.Core.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.1": {
+      "dependencies": {
+        "Microsoft.AspNetCore.Http.Abstractions": {
+          "target": "Package",
+          "version": "[2.1.0-rc1-final, )"
+        },
+        "Microsoft.AspNetCore.Mvc.Core": {
+          "target": "Package",
+          "version": "[2.1.0-rc1-final, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.1.0-rc1, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

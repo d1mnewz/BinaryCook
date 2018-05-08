@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.1</TargetFramework>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="Autofac" Version="4.8.0"/>
+    </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\BinaryCook.Infrastructure.AutoMapper\BinaryCook.Infrastructure.AutoMapper.csproj"/>
+        <ProjectReference Include="..\src\BinaryCook.Application.Core\BinaryCook.Application.Core.csproj"/>
+        <ProjectReference Include="..\src\BinaryCook.Core\BinaryCook.Core.csproj"/>
+        <ProjectReference Include="..\src\BinaryCook.Infrastructure.IoC\BinaryCook.Infrastructure.IoC.csproj"/>
+    </ItemGroup>
+</Project>

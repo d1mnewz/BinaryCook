@@ -1,0 +1,59 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "F:\\playlists\\BinaryCook\\BinaryCook\\src\\BinaryCook.Infrastructure.Caching\\BinaryCook.Infrastructure.Caching.csproj",
+    "projectName": "BinaryCook.Infrastructure.Caching",
+    "projectPath": "F:\\playlists\\BinaryCook\\BinaryCook\\src\\BinaryCook.Infrastructure.Caching\\BinaryCook.Infrastructure.Caching.csproj",
+    "outputPath": "F:\\playlists\\BinaryCook\\BinaryCook\\src\\BinaryCook.Infrastructure.Caching\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.1"
+    ],
+    "frameworks": {
+      "netcoreapp2.1": {
+        "projectReferences": {
+          "F:\\playlists\\BinaryCook\\BinaryCook\\src\\BinaryCook.Core\\BinaryCook.Core.csproj": {
+            "projectPath": "F:\\playlists\\BinaryCook\\BinaryCook\\src\\BinaryCook.Core\\BinaryCook.Core.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.1": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.1.0-rc1, )",
+          "autoReferenced": true
+        },
+        "Polly": {
+          "target": "Package",
+          "version": "[5.9.0, )"
+        },
+        "StackExchange.Redis.Extensions.NetCore": {
+          "target": "Package",
+          "version": "[1.0.1, )"
+        },
+        "protobuf-net": {
+          "target": "Package",
+          "version": "[2.3.7, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

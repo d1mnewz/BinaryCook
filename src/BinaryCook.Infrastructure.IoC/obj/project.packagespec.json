@@ -1,0 +1,54 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "F:\\playlists\\BinaryCook\\BinaryCook\\src\\BinaryCook.Infrastructure.IoC\\BinaryCook.Infrastructure.IoC.csproj",
+    "projectName": "BinaryCook.Infrastructure.IoC",
+    "projectPath": "F:\\playlists\\BinaryCook\\BinaryCook\\src\\BinaryCook.Infrastructure.IoC\\BinaryCook.Infrastructure.IoC.csproj",
+    "outputPath": "F:\\playlists\\BinaryCook\\BinaryCook\\src\\BinaryCook.Infrastructure.IoC\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.1"
+    ],
+    "frameworks": {
+      "netcoreapp2.1": {
+        "projectReferences": {
+          "F:\\playlists\\BinaryCook\\BinaryCook\\src\\BinaryCook.Infrastructure.Caching\\BinaryCook.Infrastructure.Caching.csproj": {
+            "projectPath": "F:\\playlists\\BinaryCook\\BinaryCook\\src\\BinaryCook.Infrastructure.Caching\\BinaryCook.Infrastructure.Caching.csproj"
+          },
+          "F:\\playlists\\BinaryCook\\BinaryCook\\src\\BinaryCook.Infrastructure.Core\\BinaryCook.Infrastructure.Core.csproj": {
+            "projectPath": "F:\\playlists\\BinaryCook\\BinaryCook\\src\\BinaryCook.Infrastructure.Core\\BinaryCook.Infrastructure.Core.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.1": {
+      "dependencies": {
+        "Autofac": {
+          "target": "Package",
+          "version": "[4.8.0, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.1.0-rc1, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

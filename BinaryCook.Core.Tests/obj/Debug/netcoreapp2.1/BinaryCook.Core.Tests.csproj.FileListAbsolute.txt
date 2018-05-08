@@ -1,0 +1,17 @@
+C:\Users\d1mne\RiderProjects\BinaryCook\BinaryCook.Core.Tests\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\d1mne\RiderProjects\BinaryCook\BinaryCook.Core.Tests\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\d1mne\RiderProjects\BinaryCook\BinaryCook.Core.Tests\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Users\d1mne\RiderProjects\BinaryCook\BinaryCook.Core.Tests\bin\Debug\netcoreapp2.1\BinaryCook.Core.Tests.deps.json
+C:\Users\d1mne\RiderProjects\BinaryCook\BinaryCook.Core.Tests\bin\Debug\netcoreapp2.1\BinaryCook.Core.Tests.runtimeconfig.json
+C:\Users\d1mne\RiderProjects\BinaryCook\BinaryCook.Core.Tests\bin\Debug\netcoreapp2.1\BinaryCook.Core.Tests.runtimeconfig.dev.json
+C:\Users\d1mne\RiderProjects\BinaryCook\BinaryCook.Core.Tests\bin\Debug\netcoreapp2.1\BinaryCook.Core.Tests.dll
+C:\Users\d1mne\RiderProjects\BinaryCook\BinaryCook.Core.Tests\bin\Debug\netcoreapp2.1\BinaryCook.Core.Tests.pdb
+C:\Users\d1mne\RiderProjects\BinaryCook\BinaryCook.Core.Tests\bin\Debug\netcoreapp2.1\BinaryCook.Core.dll
+C:\Users\d1mne\RiderProjects\BinaryCook\BinaryCook.Core.Tests\bin\Debug\netcoreapp2.1\BinaryCook.Core.pdb
+C:\Users\d1mne\RiderProjects\BinaryCook\BinaryCook.Core.Tests\obj\Debug\netcoreapp2.1\BinaryCook.Core.Tests.csprojResolveAssemblyReference.cache
+C:\Users\d1mne\RiderProjects\BinaryCook\BinaryCook.Core.Tests\obj\Debug\netcoreapp2.1\BinaryCook.Core.Tests.csproj.CoreCompileInputs.cache
+C:\Users\d1mne\RiderProjects\BinaryCook\BinaryCook.Core.Tests\obj\Debug\netcoreapp2.1\BinaryCook.Core.Tests.AssemblyInfoInputs.cache
+C:\Users\d1mne\RiderProjects\BinaryCook\BinaryCook.Core.Tests\obj\Debug\netcoreapp2.1\BinaryCook.Core.Tests.AssemblyInfo.cs
+C:\Users\d1mne\RiderProjects\BinaryCook\BinaryCook.Core.Tests\obj\Debug\netcoreapp2.1\BinaryCook.Core.Tests.csproj.CopyComplete
+C:\Users\d1mne\RiderProjects\BinaryCook\BinaryCook.Core.Tests\obj\Debug\netcoreapp2.1\BinaryCook.Core.Tests.dll
+C:\Users\d1mne\RiderProjects\BinaryCook\BinaryCook.Core.Tests\obj\Debug\netcoreapp2.1\BinaryCook.Core.Tests.pdb

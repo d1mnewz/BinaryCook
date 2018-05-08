@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.1</TargetFramework>
+    </PropertyGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\BinaryCook.Application.Core\BinaryCook.Application.Core.csproj"/>
+        <ProjectReference Include="..\BinaryCook.Core.Domain\BinaryCook.Core.Domain.csproj">
+            <Project>{8D7780A1-5B4B-41DE-8BB4-A68FB40575BD}</Project>
+            <Name>BinaryCook.Domain</Name>
+        </ProjectReference>
+        <ProjectReference Include="..\BinaryCook.Infrastructure.Core\BinaryCook.Infrastructure.Core.csproj"/>
+    </ItemGroup>
+    <ItemGroup>
+        <Folder Include="Services\Ingredients\Events"/>
+        <Folder Include="Services\Recipes\Events"/>
+    </ItemGroup>
+</Project>

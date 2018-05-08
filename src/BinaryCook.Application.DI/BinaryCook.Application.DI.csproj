@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BinaryCook.Infrastructure.IoC\BinaryCook.Infrastructure.IoC.csproj">
+      <Project>{8ADDDF52-DE76-4D73-AACC-D067DAF02B15}</Project>
+      <Name>BinaryBook.Infrastructure.IoC</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BinaryCook.Application.Core\BinaryCook.Application.Core.csproj">
+      <Project>{6F3A1333-017A-458A-B3FE-83766CE68A3E}</Project>
+      <Name>BinaryCook.Application.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BinaryCook.Core\BinaryCook.Core.csproj">
+      <Project>{614FD0DF-200A-4BBE-9CFD-039E7A919C53}</Project>
+      <Name>BinaryCook.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BinaryCook.Infrastructure.AutoMapper\BinaryCook.Infrastructure.AutoMapper.csproj">
+      <Project>{A891ABE2-1F2C-49CD-B014-3B495CF5F841}</Project>
+      <Name>BinaryCook.Infrastructure.AutoMapper</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

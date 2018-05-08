@@ -1,0 +1,56 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Users\\d1mne\\RiderProjects\\BinaryCook\\src\\BinaryCook.Application.DI\\BinaryCook.Application.DI.csproj",
+    "projectName": "BinaryCook.Application.DI",
+    "projectPath": "C:\\Users\\d1mne\\RiderProjects\\BinaryCook\\src\\BinaryCook.Application.DI\\BinaryCook.Application.DI.csproj",
+    "outputPath": "C:\\Users\\d1mne\\RiderProjects\\BinaryCook\\src\\BinaryCook.Application.DI\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.1"
+    ],
+    "frameworks": {
+      "netcoreapp2.1": {
+        "projectReferences": {
+          "C:\\Users\\d1mne\\RiderProjects\\BinaryCook\\src\\BinaryCook.Infrastructure.IoC\\BinaryCook.Infrastructure.IoC.csproj": {
+            "projectPath": "C:\\Users\\d1mne\\RiderProjects\\BinaryCook\\src\\BinaryCook.Infrastructure.IoC\\BinaryCook.Infrastructure.IoC.csproj"
+          },
+          "C:\\Users\\d1mne\\RiderProjects\\BinaryCook\\src\\BinaryCook.Application.Core\\BinaryCook.Application.Core.csproj": {
+            "projectPath": "C:\\Users\\d1mne\\RiderProjects\\BinaryCook\\src\\BinaryCook.Application.Core\\BinaryCook.Application.Core.csproj"
+          },
+          "C:\\Users\\d1mne\\RiderProjects\\BinaryCook\\src\\BinaryCook.Core\\BinaryCook.Core.csproj": {
+            "projectPath": "C:\\Users\\d1mne\\RiderProjects\\BinaryCook\\src\\BinaryCook.Core\\BinaryCook.Core.csproj"
+          },
+          "C:\\Users\\d1mne\\RiderProjects\\BinaryCook\\src\\BinaryCook.Infrastructure.AutoMapper\\BinaryCook.Infrastructure.AutoMapper.csproj": {
+            "projectPath": "C:\\Users\\d1mne\\RiderProjects\\BinaryCook\\src\\BinaryCook.Infrastructure.AutoMapper\\BinaryCook.Infrastructure.AutoMapper.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.1": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.1.0-preview2-26406-04, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

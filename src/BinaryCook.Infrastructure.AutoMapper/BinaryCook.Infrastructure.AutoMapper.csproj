@@ -1,0 +1,17 @@
+﻿﻿
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.1</TargetFramework>
+    </PropertyGroup>
+    <ItemGroup>
+        <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60">
+            <HintPath>..\..\..\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\2.0.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+        </Reference>
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="AutoMapper" Version="6.2.2"/>
+    </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\BinaryCook.Core\BinaryCook.Core.csproj"/>
+    </ItemGroup>
+</Project>
